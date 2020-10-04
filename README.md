@@ -21,6 +21,7 @@ Répartition des taches; () .
 
 Source ref; 
 ... [Ici le site officiel de Grafé Lecoq](https://www.grafe.be/vins-grafe/fr/10244-accueil.html) ...
+... [Google docs] (https://docs.google.com/document/d/1Gir6xFwpz2dPUzZir_C1-QmW8KosfDl14M78XqPxWRI/edit?usp=sharing)...
 
 
 
