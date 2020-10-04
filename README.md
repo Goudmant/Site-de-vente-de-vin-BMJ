@@ -5,7 +5,7 @@
 
 <h5>Initiatif projet:Yvan goudmant.</h5>
 
-___
+___----
 
 <h4> __but du projet__ </h4>
   
@@ -16,7 +16,7 @@ ___
     <li>Maximum deux semaines pour le projet mit en ligne avec possibilité de maintenance dans le futur.</li>
   </ul>
 
-
+---
 <h6>__Contexte:__</h6>
   
   <p>le client es intermédiere de vente de vin pour Grafé Lecoq.</p>
@@ -32,6 +32,8 @@ ___
   </ul>
   
 ___
+---
+-----
   
 
 
@@ -58,6 +60,7 @@ ___
   </ul>
   
 ___
+---
 
 <p>__Source ref; __</p>
 
@@ -74,6 +77,7 @@ ___
 
 
 ___
+---
 
 
   
@@ -119,7 +123,7 @@ ___
 
 <p>n'est plus à faire!:</p>
 ___
-***
+----------
 <p>Je vous remercie pour votre participation et engagement</p> 
 
 <p>Merci de rester indulgent avec le chef de projet ( premier projet Pro web developpeur )</p>
@@ -127,7 +131,7 @@ ___
   <p>La bonne entente est de rigueur n'hésitez pas à venir vers moi en priver afin de mettre à plat les éventuels discords afin de trouver une solution et repartir si de bonne basse</p>
   <p> Merci d'utiliser un langage approprié avec vos collègues pendant et tout au long du projet</p>
   <p>Sachée quand cas de dépassement des limites, j'en aviserais qui de droit afin de par crée des tensions et d'y mettre un terme pour la bonne continuité du projet.</p>
-***
+----------
   ___
   
   
