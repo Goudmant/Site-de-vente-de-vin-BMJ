@@ -4,13 +4,27 @@
 
 Initiatif projet:Yvan goudmant.
 
-Membres du groupe () .
+<h6>Contexte:<h6>
+  le client es intermédiere de vente de vin pour Grafé Lecoq.
+  -il souhaite automatiser les commandes de c'est client via une page Web et pouvoir étendre son activité grace à une meilleur visibilité.
+  ( recevoir par email les commandes (quantité et choix du client)  afin de ne pas toujours devoir ce rendre disponible au telephone. ) 
+  -il souhaite expliquer les services qu'il fournie ( livraison, conseils, délais, ... ) 
+  -il souhaite avoir une site évolutive avec une certaine maintenance 
+  ( le client gère seul son activité n'a pas une vision tres aboutie et souhaite corriger certains de ces choix apres la mise en route de site. )  
+  
+  
+
+
+Membres du groupe Les Agraffé. () .
 
 Répartition des taches; () .
 
-Avencement du projet: 
-<ul>
-  <il>Day 1 ()</li>
+Source ref; 
+... [Texte cliquable](https://www.grafe.be/vins-grafe/fr/10244-accueil.html) ...
+
+
+
+
 
 5/10/2020 : 
 <div checklisteday1>
@@ -21,13 +35,31 @@ Avencement du projet:
   <li>Répartition des taches</li>
   </ul>
   
+  Avencement du projet: 
+<ul>
+  <il>Day 1 ()</li>
+  
   
 6/10/2020 : 
+<div checlisteday2>
+  <ul>
+  <li></li>
+  <li></li>
+  </ul>
+  
+    Avencement du projet: 
+<ul>
+  <il>Day 2 ()</li>
+
+
+
 
 
 Notes:
 
 Tips:
+
+à faire!: 
 
 
   
