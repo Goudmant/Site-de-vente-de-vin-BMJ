@@ -33,7 +33,7 @@
   
 <p>Répartition des taches; () .<p>
   <ul>
-    <li>...</li>
+    <li>(YG) Scrum master,...</li>
     <li>...</li>
     <li>...</li>
     <li>...</li>
