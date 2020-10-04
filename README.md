@@ -1,6 +1,6 @@
 # Site-de-vente-de-vin-BMJ
 
-<h1>__Projet de groupe web developpeur junior @Becode. création du site de vente de vin en ligne.__</h1>
+<h1>___Projet de groupe web developpeur junior @Becode. création du site de vente de vin en ligne.___</h1>
 
 
 <h5>Initiatif projet:Yvan goudmant.</h5>
