@@ -9,18 +9,25 @@ Membres du groupe () .
 Répartition des taches; () .
 
 Avencement du projet: 
+<ul>
+  <il>Day 1 ()</li>
 
 5/10/2020 : 
 <div checklisteday1>
   <ul>
-  <il>Composition du groupe projet.</il>
-  <il>Présentation du projet au groupe.</il>
-  <il>Présentation de Monday.com (https://les-agraf--team.monday.com/boards/777249732/) </il>
-  <il>Répartition des taches</il>
+  <li>Composition du groupe projet.</li>
+  <li>Présentation du projet au groupe.</li>
+  <li>Présentation de Monday.com <link src(https://les-agraf--team.monday.com/boards/777249732/)></li>
+  <li>Répartition des taches</li>
   </ul>
   
   
 6/10/2020 : 
+
+
+Notes:
+
+Tips:
 
 
   
