@@ -2,7 +2,7 @@
 
 <h1>Projet de groupe création du site de vente de vin en ligne.<h1>
 
-Initiatif projet:Yvan goudmant.
+<cite>Initiatif projet:Yvan goudmant.</cite>
 
 <h6>Contexte:<h6>
   le client es intermédiere de vente de vin pour Grafé Lecoq.
