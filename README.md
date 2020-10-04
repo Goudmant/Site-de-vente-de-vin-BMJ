@@ -3,7 +3,7 @@
 <h1>Projet de groupe web developpeur junior @Becode. création du site de vente de vin en ligne.<h1>
 
 <h5>Initiatif projet:Yvan goudmant.</h5>
-
+____________
 <h4> but du projet <h4>
   <ul>
     <li>L'idée est très simple crée un site de vente de vin en ligne pour un "vrai client"</li>
@@ -25,7 +25,7 @@
     ( le client gère seul son activité n'a pas une vision tres aboutie et souhaite corriger certains de ces choix apres la mise en route de site. ) 
     </li> 
   </ul>
-  
+______________  
   
 
 
@@ -48,7 +48,7 @@
     <li>...</li>
     <li>...</li>
   </ul>
-  
+____________  
 
 <p>Source ref; </p>
 
@@ -63,7 +63,7 @@
 
 
 
-
+______________
 <p>5/10/2020 :</p>
   <div checklisteday1>
     <ul>
@@ -94,21 +94,23 @@
 
 
 
-
+________________
 <h2>Notes:</h2>
   <p>La méthodologie du projet choisi (Agiles dite SCRUM/ Avec outils Kanban)
   [Ref:](http://agilemanifesto.org/iso/fr/manifesto.html)</p>
   <p> Les Agraffés se réunissent tous les jours(Apres le Meet @home/Apres 9h00 @Becode ) pour faire le point sur ce qui a été fait ou sur les obstacles rencontrés. (15Min MAX) Cette méthode permet des développements rapides et convient particulièrement aux petites équipes.</p>
   
   
-
+_______________
 <p>Tips:</p>
   <p> Rémunaration prévue ? oui !! (à définir avec le client !!) .</p>
 
 <p>à faire!: </p>
 
 <p>n'est plus à faire!:</p>
+____________________________
 
+<p>Je vous remercie pour votre participation et engagement</p> 
 
 <p>Merci de rester indulgent avec le chef de projet ( premier projet Pro web developpeur )</p>
 <p>Ainsi qu'avec les membres du groupe les Agrafés ( nous allons formées une équipe de travail! )</p>
@@ -116,7 +118,7 @@
   <p> Merci d'utiliser un langage approprié avec vos collègues pendant et tout au long du projet</p>
   <p>Sachée quand cas de dépassement des limites, j'en aviserais qui de droit afin de par crée des tensions et d'y mettre un terme pour la bonne continuité du projet.</p>
   
-  <p>Sur ce ... je tiens a vous remercié de votre participation et engagement</p> 
+  
 
 
   
