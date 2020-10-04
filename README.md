@@ -103,11 +103,20 @@
   
 
 <p>Tips:</p>
-  <p> Rémunaration prévue ? (oui) !! à définir avec le client !! .</p>
+  <p> Rémunaration prévue ? oui !! (à définir avec le client !!) .</p>
 
 <p>à faire!: </p>
 
 <p>n'est plus à faire!:</p>
+
+
+<p>Merci de rester indulgent avec le chef de projet ( premier projet Pro web developpeur )</p>
+<p>Ainsi qu'avec les membres du groupe les Agrafés ( nous allons formées une équipe de travail! )</p>
+  <p>La bonne entente est de rigueur n'hésitez pas à venir vers moi en priver afin de mettre à plat les éventuels discords afin de trouver une solution et repartir si de bonne basse</p>
+  <p> Merci d'utiliser un langage approprié avec vos collègues pendant et tout au long du projet</p>
+  <p>Sachée quand cas de dépassement des limites, j'en aviserais qui de droit afin de par crée des tensions et d'y mettre un terme pour la bonne continuité du projet.</p>
+  
+  <p>Sur ce ... je tiens a vous remercié de votre participation et engagement</p> 
 
 
   
