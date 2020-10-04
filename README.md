@@ -1,13 +1,13 @@
 # Site-de-vente-de-vin-BMJ
 
-___<h1>Projet de groupe web developpeur junior @Becode. création du site de vente de vin en ligne.<h1>___
+<h1>__Projet de groupe web developpeur junior @Becode. création du site de vente de vin en ligne.__</h1>
 
 
 <h5>Initiatif projet:Yvan goudmant.</h5>
 
 ___
 
-___<h4> but du projet <h4>___
+<h4> __but du projet__ </h4>
   
   <ul>
     <li>L'idée est très simple crée un site de vente de vin en ligne pour un "vrai client"</li>
@@ -17,8 +17,8 @@ ___<h4> but du projet <h4>___
   </ul>
 
 
-<h6>Contexte:<h6>
-  ************
+<h6>__Contexte:__</h6>
+  
   <p>le client es intermédiere de vente de vin pour Grafé Lecoq.</p>
   <ul>
     <li>-il souhaite automatiser les commandes de c'est client via une page Web et pouvoir étendre son activité grace à une meilleur visibilité.
@@ -35,8 +35,8 @@ ___
   
 
 
-<p>Membres du groupe Les Agraffé. () .</p>
-*****************************************
+<p>__Membres du groupe Les Agraffé. () .__</p>
+
   <ul>
     <li>Yvan Goudmant (YG) Scrum master,...</li>
     <li>...</li>
@@ -47,8 +47,8 @@ ___
   
   
   
-<p>Répartition des taches; () .<p>
-  *******************************
+<p>__Répartition des taches; () .__<p>
+  
   <ul>
     <li>(YG) Scrum master,...</li>
     <li>...</li>
@@ -59,8 +59,8 @@ ___
   
 ___
 
-<p>Source ref; </p>
-******************
+<p>__Source ref; __</p>
+
 
 <p>[Google docs] (https://docs.google.com/document/d/1Gir6xFwpz2dPUzZir_C1-QmW8KosfDl14M78XqPxWRI/edit?usp=sharing)</p>
 <p>[Monday.com] (https://les-agraf--team.monday.com/boards/777249732/)</p>
@@ -77,8 +77,8 @@ ___
 
 
   
-<p>Avancement du projet:</p>
-************************
+<p>__Avancement du projet:__</p>
+
   <ul Day One >
     <li>...</li>
     <li>...</li>
@@ -100,8 +100,8 @@ ___
 
 ___
 
-<h2>Notes:</h2>
-**************
+<h2>__Notes:__</h2>
+
   <p>La méthodologie du projet choisi (Agiles dite SCRUM/ Avec outils Kanban)
   [Ref:](http://agilemanifesto.org/iso/fr/manifesto.html)</p>
   <p> Les Agraffés se réunissent tous les jours(Apres le Meet @home/Apres 9h00 @Becode ) pour faire le point sur ce qui a été fait ou sur les obstacles rencontrés. (15Min MAX) Cette méthode permet des développements rapides et convient particulièrement aux petites équipes.</p>
@@ -109,8 +109,8 @@ ___
   
 ___
 
-<p>Tips:</p>
-***********
+<p>__Tips:__</p>
+
   <p> Rémunaration prévue ? oui !! (à définir avec le client !!) .</p>
   
 ___
@@ -119,7 +119,7 @@ ___
 
 <p>n'est plus à faire!:</p>
 ___
-
+***
 <p>Je vous remercie pour votre participation et engagement</p> 
 
 <p>Merci de rester indulgent avec le chef de projet ( premier projet Pro web developpeur )</p>
@@ -127,7 +127,7 @@ ___
   <p>La bonne entente est de rigueur n'hésitez pas à venir vers moi en priver afin de mettre à plat les éventuels discords afin de trouver une solution et repartir si de bonne basse</p>
   <p> Merci d'utiliser un langage approprié avec vos collègues pendant et tout au long du projet</p>
   <p>Sachée quand cas de dépassement des limites, j'en aviserais qui de droit afin de par crée des tensions et d'y mettre un terme pour la bonne continuité du projet.</p>
-  
+***
   ___
   
   
