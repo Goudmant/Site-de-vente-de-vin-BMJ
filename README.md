@@ -22,7 +22,7 @@
 
 <p>Membres du groupe Les Agraffé. () .</p>
   <ul>
-    <li>...</li>
+    <li>Yvan Goudmnt (YG) Scrum master,...</li>
     <li>...</li>
     <li>...</li>
     <li>...</li>
@@ -86,9 +86,15 @@
 
 
 
-<p>Notes:</p>
+<h2>Notes:</h2>
+  <p>La méthodologie du projet choisi (Agiles ou SCRUM/ Avec outils Kanban)
+  [Ref:](http://agilemanifesto.org/iso/fr/manifesto.html)</p>
+  <p> Les Agraffés se réunissent tous les jours(Apres le Meet @home/Apres 9h00 @Becode )  pour faire le point sur ce qui a été fait ou sur les obstacles rencontrés. (15Min MAX) Cette méthode permet des développements rapides et convient particulièrement aux petites équipes.</p>
+  
+  
 
 <p>Tips:</p>
+  <p> Rémunaration prévue ? (oui) !! à définir avec le client !! .</p>
 
 <p>à faire!: </p>
 
