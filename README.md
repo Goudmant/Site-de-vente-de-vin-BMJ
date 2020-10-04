@@ -47,7 +47,7 @@ ___
   
   
   
-<p>__Répartition des taches; () .__<p>
+<p><__Répartition des taches; () .__><p>
   
   <ul>
     <li>(YG) Scrum master,...</li>
