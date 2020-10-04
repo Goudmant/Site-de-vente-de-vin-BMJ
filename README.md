@@ -20,7 +20,8 @@ Membres du groupe Les Agraffé. () .
 Répartition des taches; () .
 
 Source ref; 
-... [Texte cliquable](https://www.grafe.be/vins-grafe/fr/10244-accueil.html) ...
+... [Ici le site officiel de Grafé Lecoq](https://www.grafe.be/vins-grafe/fr/10244-accueil.html) ...
+
 
 
 
@@ -29,27 +30,29 @@ Source ref;
 5/10/2020 : 
 <div checklisteday1>
   <ul>
-  <li>Composition du groupe projet.</li>
-  <li>Présentation du projet au groupe.</li>
-  <li>Présentation de Monday.com <link src(https://les-agraf--team.monday.com/boards/777249732/)></li>
-  <li>Répartition des taches</li>
+    <li>Composition du groupe projet.</li>
+    <li>Présentation du projet au groupe.</li>
+    <li>Présentation de Monday.com <link src(https://les-agraf--team.monday.com/boards/777249732/)></li>
+    <li>Répartition des taches</li>
   </ul>
   
-  Avencement du projet: 
+Avencement du projet: 
 <ul>
   <il>Day 1 ()</li>
+</ul>
   
   
 6/10/2020 : 
 <div checlisteday2>
   <ul>
-  <li></li>
-  <li></li>
+    <li></li>
+    <li></li>
   </ul>
   
-    Avencement du projet: 
+Avencement du projet:  
 <ul>
   <il>Day 2 ()</li>
+</ul>
 
 
 
@@ -60,6 +63,7 @@ Notes:
 Tips:
 
 à faire!: 
+n'est plus à faire!: 
 
 
   
