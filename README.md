@@ -4,6 +4,15 @@
 
 <h5>Initiatif projet:Yvan goudmant.</h5>
 
+<h4> but du projet <h4>
+  <ul>
+    <li>L'idée est très simple crée un site de vente de vin en ligne pour un "vrai client"</li>
+    <li>le projet ne devrait pas etre très long et compliqué.</li>
+    <li>L'intérrais est à apprendre à gérer un projet complet en tant que master Scrum ) avec des "collègues" et un intervenant extérieur (marraine @Becode Aurore      limage ) une équipe réduite de 5 personnes max.</li>
+    <li>Maximum deux semaines pour le projet mit en ligne avec possibilité de maintenance dans le futur.</li>
+  </ul>
+
+
 <h6>Contexte:<h6>
   <p>le client es intermédiere de vente de vin pour Grafé Lecoq.</p>
   <ul>
