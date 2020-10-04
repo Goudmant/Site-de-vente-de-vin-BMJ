@@ -1,6 +1,6 @@
 # Site-de-vente-de-vin-BMJ
 
-<h1>Projet de groupe création du site de vente de vin en ligne.<h1>
+<h1>Projet de groupe web developpeur junior @Becode. création du site de vente de vin en ligne.<h1>
 
 <h5>Initiatif projet:Yvan goudmant.</h5>
 
@@ -8,10 +8,14 @@
   <p>le client es intermédiere de vente de vin pour Grafé Lecoq.</p>
   <ul>
     <li>-il souhaite automatiser les commandes de c'est client via une page Web et pouvoir étendre son activité grace à une meilleur visibilité.
-  ( recevoir par email les commandes (quantité et choix du client)  afin de ne pas toujours devoir ce rendre disponible au telephone. ) </li>
-  <li>-il souhaite expliquer les services qu'il fournie ( livraison, conseils, délais, ... ) </li>
-  <li>-il souhaite avoir une site évolutive avec une certaine maintenance 
-  ( le client gère seul son activité n'a pas une vision tres aboutie et souhaite corriger certains de ces choix apres la mise en route de site. ) </li> 
+    ( recevoir par email les commandes (quantité et choix du client)  afin de ne pas toujours devoir ce rendre disponible au telephone. ) 
+    </li>
+    <li>-il souhaite expliquer les services qu'il fournie ( livraison, conseils, délais, ... ) 
+    </li>
+    <li>-il souhaite avoir une site évolutive avec une certaine maintenance 
+    ( le client gère seul son activité n'a pas une vision tres aboutie et souhaite corriger certains de ces choix apres la mise en route de site. ) 
+    </li> 
+  </ul>
   
   
 
@@ -38,8 +42,8 @@
   
 
 <p>Source ref; </p>
-... [Ici le site officiel de Grafé Lecoq](https://www.grafe.be/vins-grafe/fr/10244-accueil.html) ...
-... [Google docs] (https://docs.google.com/document/d/1Gir6xFwpz2dPUzZir_C1-QmW8KosfDl14M78XqPxWRI/edit?usp=sharing)...
+<p>... [Ici le site officiel de Grafé Lecoq](https://www.grafe.be/vins-grafe/fr/10244-accueil.html) ...</p>
+<p>... [Google docs] (https://docs.google.com/document/d/1Gir6xFwpz2dPUzZir_C1-QmW8KosfDl14M78XqPxWRI/edit?usp=sharing)...</p>
 
 
 
