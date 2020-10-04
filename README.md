@@ -94,7 +94,7 @@ ______________
 
 
 
-________________
+___
 <h2>Notes:</h2>
   <p>La méthodologie du projet choisi (Agiles dite SCRUM/ Avec outils Kanban)
   [Ref:](http://agilemanifesto.org/iso/fr/manifesto.html)</p>
