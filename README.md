@@ -40,8 +40,8 @@
 <p><u>Membres du groupe Les Agraffé. () .</u></p>
 
   <ul>
-    <li>Yvan Goudmant (YG) Scrum master,...</li>
-    <li>...</li>
+    <li>Yvan Goudmant (YG)</li>
+    <li>Aurore Limage (AL)</li>
     <li>...</li>
     <li>...</li>
     <li>...</li>
