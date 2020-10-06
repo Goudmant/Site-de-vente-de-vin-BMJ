@@ -42,9 +42,10 @@
   <ul>
     <li>Yvan Goudmant (YG)</li>
     <li>Aurore Limage (AL)</li>
-    <li>...</li>
-    <li>...</li>
-    <li>...</li>
+    <li>Antoine Jensen (AJ)</li>
+    <li>Valentin Massart (VM)</li>
+    <li>Philippe Leroy (PL)</li>
+    <li>Manon Bracke (MB)</li>
   </ul>
   
   
@@ -53,10 +54,11 @@
   
   <ul>
     <li>(YG) Scrum master,...</li>
-    <li>...</li>
-    <li>...</li>
-    <li>...</li>
-    <li>...</li>
+    <li>(AL) Aide et conseils,...</li>
+    <li>(AJ) Responsable Git,...</li>
+    <li>(VM),...</li>
+    <li>(PL) Html,...</li>
+    <li>(MB) Maquette,...</li>
   </ul>
   
 
@@ -84,8 +86,9 @@
 <p><u>Avancement du projet:</u></p>
 
   <ul Day One >
-    <li>...</li>
-    <li>...</li>
+    <li>Exposer du Projet</li>
+    <li>Distribution des taches</li>
+    <li>Installation d'extention VSC LIve Share(méthotologie de travail de groupe</li>
   </ul>
   
   <ul Day two>
