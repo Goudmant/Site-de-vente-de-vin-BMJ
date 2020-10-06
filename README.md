@@ -83,7 +83,8 @@
 
 
   
-<p><u>Avancement du projet:</u></p>
+<p>Avancement du projet:</p>
+***
 
   <ul Day One >
     <li>Exposer du Projet</li>
@@ -107,7 +108,8 @@
 
 ___
 
-<h2><u>Notes:</u></h2>
+<h2>Notes:</h2>
+***
 
   <p>La méthodologie du projet choisi (Agiles dite SCRUM/ Avec outils Kanban)
   [Ref:](http://agilemanifesto.org/iso/fr/manifesto.html)</p>
@@ -139,6 +141,17 @@ ___
   <p> GO! LES AGRAFFES GO ! </p>
   
 ----
+
+Mail client: Je vous confirme mon souhait de développer un site destiné à des consommateurs privés et professionnels, amateurs d'excellents vins à des conditions très intéressantes.
+Ce site leur permettrait de trouver aisément des conseils pertinents.
+Il aurait pour objectif de permettre un contact personnalisé pour répondre à leurs multiples questions de manière simple afin de trouver la meilleure correspondance dans le cadre d'une fête de famille, de mariage, d'anniversaire ou autre.
+
+J'attends de ce site qu'il soit simple et aide celui qui le consulte à obtenir une répons très rapide à toute question relative à sa recherche concernant les vins français et belges élevés chez nous. 
+Ce sont principalement tous les vins de la Maison G affinés en fûts de chêne dans les anciennes galeries de CN. 
+Quand il s'agit des vins de la MG , je souhaite un site sobre qui puisse mettre en évidence les services que nous apporterons prioritairement et principalement s'agissant des livraisons, des quantités et consignation des bouteilles, etc.
+Quant au texte, il sera simple avec nos coordonnées et quelques noms de vins (et prix) que nous commercialisons actuellement.
+Je m'en remets à vous pour organiser la présentation et la réalisation d'un premier projet.
+Je viserais également l'exportation hors Europe.
   
   
   
