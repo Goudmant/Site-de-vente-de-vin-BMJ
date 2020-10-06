@@ -53,12 +53,12 @@
 <p>Répartition des taches; () .<p>
   
   <ul>
-    <li>(YG) Scrum master,...</li>
+    <li>(YG) Scrum master,Maquette, Logo,...</li>
     <li>(AL) Aide et conseils,...</li>
-    <li>(AJ) Responsable Git,...</li>
-    <li>(VM),...</li>
+    <li>(AJ) Responsable Git,Back-end,base de donnée...</li>
+    <li>(VM) Html+Responsable lang(syntaxe),...</li>
     <li>(PL) Html,...</li>
-    <li>(MB) Maquette,...</li>
+    <li>(MB) Maquette,Logo,...</li>
   </ul>
   
 
@@ -93,8 +93,9 @@
   </ul>
   
   <ul Day two>
-    <li>...</li>
-    <li>...</li>
+    <li>Feedback day one</li>
+    <li>UP Doc client (visuel+produit et prix)</li>
+    <li></li>
   </ul>
   
   
