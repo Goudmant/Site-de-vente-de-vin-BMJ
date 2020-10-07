@@ -95,8 +95,20 @@
   <ul Day two>
     <li>Feedback day one</li>
     <li>UP Doc client (visuel+produit et prix)</li>
-    <li></li>
+    <li>Retard maquette !!</li>
+    <li>Tuto PHP (fiche contact)</li>
   </ul>
+
+  <ul Day tree>
+    <li>@charleroi Réunion reporter apres la veille de 13H30</li>
+    <li>statut philippe? (ré-attribution taches dead-line lundi 12/10)</li>
+    <li>finalisation Logo ?</li>
+    <li>finalisation maquette ?</li>
+    
+  </ul>
+
+
+ 
   
   
 
@@ -125,7 +137,7 @@ ___
   
 ___
 
-<p>à faire!: </p>
+<p>à faire!: Maquette !! Jour de retard (1) </p>
 
 <p>n'est plus à faire!:</p>
 
