@@ -9,6 +9,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Accueil</title>
+    <!-- These styles are here to help highlight
+          the rows and columns to help visualise 
+          how Bootstrap 4 renders them -->
+    <style>
+      .row {
+        border: 1px solid #7451eb;
+        padding: 3px;
+      }
+      [class^="col"] {
+        padding: 1rem;
+        border: 2px solid #3fa5db;
+      }
+    </style>
   </head>
   <body>
     <!-- Navbar -->
@@ -18,7 +31,7 @@
           <nav class="col navbar navbar-expand-lg navbar-dark">
             <a class="navbar-brand" href="...">
               <img src="" alt="logo" height="50" width="50" />
-              BMJ Marchand de vins
+              BMJ Vins
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
               <span class="navbar-toggler-icon"></span>
@@ -29,10 +42,10 @@
                   <a class="nav-link" href="index.html">Accueil</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="a-propos.html">A propos</a>
+                  <a class="nav-link" href="selection.html">Sélection</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="nos-vins.html">Nos vins</a>
+                  <a class="nav-link" href="catalogue.html">Catalogue</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="contact.html">Contact</a>
@@ -41,6 +54,36 @@
             </div>
           </nav>
         </div>
+      </div>
+    </div>
+    <!-- Main -->
+    <div class="container">
+      <div class="row">
+        <div class="col">Jumbotron</div>
+      </div>
+      <div class="row">
+        <div class="col">Nos produits</div>
+      </div>
+      <div class="row">
+        <div class="col">Interlude image</div>
+      </div>
+      <div class="row">
+        <div class="col">Bio</div>
+      </div>
+      <div class="row">
+        <div class="col">Lien vers page "sélection/conseils"</div>
+      </div>
+      <div class="row">
+        <div class="col">Lien vers page "tous nos vins/catalogue" (4 liens)</div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">Rouge</div>
+        <div class="col-md-3">Blanc</div>
+        <div class="col-md-3">Rosé</div>
+        <div class="col-md-3">Mousseux</div>
+      </div>
+      <div class="row">
+        <div class="col">Informations de contact</div>
       </div>
     </div>
 
