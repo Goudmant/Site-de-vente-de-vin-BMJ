@@ -9,6 +9,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Catalogue</title>
+    <!-- These styles are here to help highlight
+          the rows and columns to help visualise 
+          how Bootstrap 4 renders them -->
+    <style>
+      .row {
+        border: 1px solid #7451eb;
+        padding: 3px;
+      }
+      [class^="col"] {
+        padding: 1rem;
+        border: 2px solid #3fa5db;
+      }
+    </style>
   </head>
   <body>
     <!-- Navbar -->
@@ -43,7 +56,27 @@
         </div>
       </div>
     </div>
-
+    <!-- Main -->
+    <div class="container">
+      <div class="row">
+        <div class="col">Switch HTVA / TVAC</div>
+        <div class="col">Switch vidanges</div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p class="nom">Nom</p>
+        </div>
+        <div class="col">
+          <p class="prix-1">Prix (1)</p>
+        </div>
+        <div class="col">
+          <p class="prix-6">Prix (6)</p>
+        </div>
+        <div class="col">
+          <p class="prix-12">Prix (12)</p>
+        </div>
+      </div>
+    </div>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
