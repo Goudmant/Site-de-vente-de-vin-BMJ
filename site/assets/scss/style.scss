@@ -30,31 +30,31 @@ li{
 //PHOTO PAGE D'ACCEIL
 .pictureacceuil {
     background-image: url(/assets/images/red-wine-2443699.jpg);
-    background-size: cover;;
+    background-size: cover;
 }
 .vinsrouges {
     background-image: url(/assets/images/ProduitVinsRouges.jpg);
-    background-size: cover;;
+    background-size: cover;
 }
 .vinsblancs{
     background-image: url(/assets/images/ProduitVinsBlancs.jpg);
-    background-size: cover;;
+    background-size: cover;
 }
 .vinsrosées {
     background-image: url(/assets/images/ProduitsVinsRosées.jpg);
-    background-size: cover;;
+    background-size: cover;
 }
 .bulles {
     background-image: url(/assets/images/ProduitsVinsBulles.jpg);
-    background-size: cover;;
+    background-size: cover;
 }
 .picturebernard {
     background-image: url(/assets/images/PictureBernard.jpg);
-    background-size: cover;;
+    background-size: cover;
 }
 .picturecontact {
     background-image: url(/assets/images/PictureContact.jpg);
-    background-size: cover;;
+    background-size: cover;
 }
 
 //logo fond transparant
@@ -80,7 +80,9 @@ li{
         list-style-type:none;
         float:left 5em;
         display: inline block;
-        font-family: 'Nanum Myeongjo', serif; ;
+        font-family: 'Nanum Myeongjo', serif; 
+        border-radius: width: 50px height:120px border: 2px solid #ffffff;
+        
     }
 }
 //sous-titre BERNARD WAUCQUEZ <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
