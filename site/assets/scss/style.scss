@@ -1,4 +1,4 @@
-//BMJ-vin mise en page
+//////////////////////////////////////BMJ-vin mise en page
 
 //couleur texte (#fff1e6)
 //couleur fond-site (rouge) (#640D14)
@@ -6,7 +6,7 @@
 //couleur Nav-bar (#38040E)
 //background-color derierre le logo transparant (#FFFFF)
 
-//PAGE Acceil
+//////////////////////////////////////PAGE Acceil
 
 body{
     background-color: #640D14; //couleur de fond site 
@@ -28,7 +28,10 @@ li{
     font-family: 'Open Sans', sans-serif; //<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
     font-size: ;
 }
-//IMAGE PAGE D'ACCEIL
+
+//////////////////////////////////////IMAGE PAGE D'ACCEIL
+
+
 .pictureacceuil {
     background-image: url(/assets/images/red-wine-2443699.jpg); // DeuxVerreDeVinsRougesCheminée
     background-size: cover;
@@ -57,7 +60,8 @@ li{
     background-image: url(/assets/images/PictureContact.jpg);//CaveÀVins
 }
 
-//IMAGE page Présentation
+//////////////////////////////////////IMAGE page Présentation
+
 .picurepresentation {
     background-image: url(/assets/images/Namur\ -\ L\ Ile\ Vas-t\ y\ frotte.jpg); // ou // url(/assets/images/Namur\ -\ Vieilles\ Maisons\ sur\ la\ Sambre.jpg) //Photo en attente // ViellePhotoDeNamur
     background-size: cover;
@@ -70,9 +74,30 @@ li{
     height: ;
 }
 
-//IMAGE PAGE Contact
+//////////////////////////////////////IMAGE PAGE Contact
 
 //IMAGE PAGE Produit 
+.logoR {
+    background-image: url(/assets/images/ProduitVinsRouges.jpg); // VerreDeVinRouge
+    width: ;
+    height: ;
+}
+.logoB {
+    background-image: url(/assets/images/ProduitVinsBlancs.jpg); // VerreDeVinBlanc
+    width: ;
+    height: ;
+}
+.logoRs {
+    background-image: url(/assets/images/ProduitsVinsRosées.jpg); // VerreDeVinRosées
+    width: ;
+    height: ;
+}
+.logobulles {
+    background-image: url(/assets/images/ProduitsVinsBulles.jpg); // VerreDeBulles
+    width: ;
+    height: ;
+}
+
 
 //logo fond transparant
 .logo {
@@ -85,7 +110,14 @@ li{
 
 }
 
+//////////////////////////////////////TEXTE
 
+.p {
+    color: #fff1e6;
+    font-size: ;
+    font-family: 'Open Sans', sans-serif; //<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+}
 
 //titre NOS PRODUITS 
 .h1{
@@ -129,6 +161,9 @@ li{
     text-align:;
     font-size:;
 }
+
+////////////////////////////////////FUNCTION
+
 //button à votre services 
 .buttonContact {
     border-radius: width: 50px height:120px border: 2px solid #fffle6;
