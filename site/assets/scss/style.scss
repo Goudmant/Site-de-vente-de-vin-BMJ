@@ -1,20 +1,104 @@
 //BMJ-vin mise en page
 
+//couleur texte (#fff1e6)
+//couleur fond-site (#640D14)
+//couleur Nav-bar (#38040E)
+
+//page d'acceil
+//Nav Bar
+body{
+    background-color: #640D14;
+}
+.navbar-top {
+    background-color:#38040E;
+    
+}
+
+.navbar-bottom {
+    background-color:#38040E;
+    
+}
+//Liste a puces Nav-Bar(top/bottom) <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
 li{
     list-style-type:none;
     float:left 5em;
     display: inline block;
+    font-family: 'Open Sans', sans-serif;;
 }
-
-.navbar-brand {
-    background-color:#38040E;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
-    
-}
-.picture1 {
+//PHOTO PAGE D'ACCEIL
+.pictureacceuil {
     background-image: url(/assets/images/red-wine-2443699.jpg);
     background-size: cover;;
 }
+.vinsrouges {
+    background-image: url(/assets/images/ProduitVinsRouges.jpg);
+    background-size: cover;;
+}
+.vinsblancs{
+    background-image: url(/assets/images/ProduitVinsBlancs.jpg);
+    background-size: cover;;
+}
+.vinsrosées {
+    background-image: url(/assets/images/ProduitsVinsRosées.jpg);
+    background-size: cover;;
+}
+.bulles {
+    background-image: url(/assets/images/ProduitsVinsBulles.jpg);
+    background-size: cover;;
+}
+.picturebernard {
+    background-image: url(/assets/images/PictureBernard.jpg);
+    background-size: cover;;
+}
+.picturecontact {
+    background-image: url(/assets/images/PictureContact.jpg);
+    background-size: cover;;
+}
+
+//logo fond transparant
 .logo {
+    background-image: url(/assets/images/LogoVectoTotal.svg);
+
+}
+
+//signature
+.sign {
     background-image: url();
 }
+
+//titre NOS PRODUITS <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+.h1{
+    font-family: font-family: 'Nanum Myeongjo', serif;
+    color: #fff1e6;
+    text-align:center;
+}
+//sous-titre clasification <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+.h4 {
+    li{
+        list-style-type:none;
+        float:left 5em;
+        display: inline block;
+        font-family: 'Nanum Myeongjo', serif; ;
+    }
+}
+//sous-titre BERNARD WAUCQUEZ <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+.h2{
+    font-family:font-family: 'Nanum Myeongjo', serif; 
+    color: #fff1e6;
+    text-align:;
+}
+//sous-titre texte BERNARD WAUCQUEZ <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+.paragraphe&SousParagraphe {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff1e6;
+    text-align: ;
+}
+//sous-titre CONTACT <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+.h3{
+    font-family:font-family: 'Nanum Myeongjo', serif; 
+    color:#fff1e6;
+    text-align:;
+}
+
+
+
