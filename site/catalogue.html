@@ -56,11 +56,58 @@
         </div>
       </div>
     </div>
+
+    <!-- Shopping cart -->
+    <div id="cart" class="container d-inline-flex sticky-top justify-content-end">
+      <div class="row bg-dark">
+        <div class="col navbar navbar-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#cartContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+      <div id="cartContent" class="collapse navbar-collapse">
+        <!-- Table -->
+        <div class="row d-inline-flex flex-column">
+          <div class="col">
+            <table class="table-sm">
+              <thead>
+                <tr>
+                  <td>PRODUIT</td>
+                  <td>QUANTITE</td>
+                  <td>PRIX</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Item-1</td>
+                  <td>Quantité</td>
+                  <td>Prix</td>
+                </tr>
+                <tr>
+                  <td>Item-2</td>
+                  <td>Quantité</td>
+                  <td>Prix</td>
+                </tr>
+                <tr>
+                  <td>Total</td>
+                  <td>Total</td>
+                  <td>Total</td>
+                </tr>
+              </tbody>
+            </table>
+            <!-- Button -->
+            <button class="btn btn-dark">Valider le panier</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Main -->
     <div class="container">
       <div class="row">
-        <div class="col"><h4>Switch HTVA / TVAC</h4></div>
-        <div class="col"><h4>Switch vidanges</h4></div>
+        <div class="col-4"><h4>Switch HTVA / TVAC</h4></div>
+        <div class="col-4"><h4>Switch vidanges</h4></div>
       </div>
       <div class="row">
         <div class="col"><h3>Vin rouge</h3></div>
@@ -187,55 +234,7 @@
         </div>
       </div>
     </div>
-    <!-- Shopping cart -->
-    <div id="cart" class="container bg-dark">
-      <div class="row">
-        <div class="col navbar text-right navbar-dark">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#cartContent">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-      </div>
-      <div id="cartContent" class="collapse navbar-collapse">
-        <!-- Table -->
-        <div class="row">
-          <div class="col">
-            <table class="table-sm">
-              <thead>
-                <tr>
-                  <td>PRODUIT</td>
-                  <td>QUANTITE</td>
-                  <td>PRIX</td>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Item-1</td>
-                  <td>Quantité</td>
-                  <td>Prix</td>
-                </tr>
-                <tr>
-                  <td>Item-2</td>
-                  <td>Quantité</td>
-                  <td>Prix</td>
-                </tr>
-                <tr>
-                  <td>Total</td>
-                  <td>Total</td>
-                  <td>Total</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-        <!-- Button -->
-        <div class="row">
-          <div class="col">
-            <button class="btn btn-dark">Valider le panier</button>
-          </div>
-        </div>
-      </div>
-    </div>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
