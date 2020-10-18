@@ -28,7 +28,7 @@ li{
     font-family: 'Open Sans', sans-serif;
     font-size: ;
 }
-//PHOTO PAGE D'ACCEIL
+//IMAGE PAGE D'ACCEIL
 .pictureacceuil {
     background-image: url(/assets/images/red-wine-2443699.jpg);
     background-size: cover;
@@ -57,11 +57,22 @@ li{
     background-image: url(/assets/images/PictureContact.jpg);
     background-size: cover;
 }
+//IMAGE page Présentation
+.picurepresentation {
+    background-image: url(/assets/images/PictureBernard.jpg);//photo en attente ! 
+    background-size: cover;
+}
+
+//IMAGE PAGE Contact
+
+//IMAGE PAGE Produit 
 
 //logo fond transparant
 .logo {
     background-image: url(/assets/images/LogoVectoTotal.svg);
+    background-color: #ffffff;
     text-align: ;
+
 
 }
 
@@ -87,7 +98,7 @@ li{
         float:left 5em;
         display: inline block;
         font-family: 'Nanum Myeongjo', serif; 
-        border-radius: width: 50px height:120px border: 2px solid #ffffff;
+        border-radius: width: 50px height:120px border: 2px solid #fffle6;
         font-size: ;
         
     }
@@ -117,7 +128,7 @@ li{
 }
 //button à votre services <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
 .button {
-    border-radius: width: 50px height:120px border: 2px solid #ffffff;
+    border-radius: width: 50px height:120px border: 2px solid #fffle6;
     color:#fffle6; 
     font-family: 'Nanum Myeongjo', serif;
     font-size:;
