@@ -2,7 +2,7 @@
 
 //couleur texte (#fff1e6)
 //couleur fond-site (rouge) (#640D14)
-//couleur fond-site (noir) (#2F2927)
+//couleur fond-site (gris) (#2F2927)
 //couleur Nav-bar (#38040E)
 //background-color derierre le logo transparant (#FFFFF)
 
@@ -58,8 +58,15 @@ li{
 }
 //IMAGE page Présentation
 .picurepresentation {
-    background-image: url(/assets/images/PicturePrésentation.jpg);//photo en attente ! 
+    background-image: url(/assets/images/Namur\ -\ Vieilles\ Maisons\ sur\ la\ Sambre.jpg);//photo en attente // ViellePhotoDeNamur
     background-size: cover;
+}
+//signature
+.sign {
+    background-image: url(/assets/images/SignatureBlanc.svg); // SignatureClientBlanc (existe aussi en noir) 
+    text-align: ;
+    width: auto
+    height: ;
 }
 
 //IMAGE PAGE Contact
@@ -77,13 +84,7 @@ li{
 
 }
 
-//signature
-.sign {
-    background-image: url();
-    text-align: ;
-    width: auto
-    height: ;
-}
+
 
 //titre NOS PRODUITS 
 .h1{
@@ -128,7 +129,7 @@ li{
     font-size:;
 }
 //button à votre services 
-.button {
+.buttonContact {
     border-radius: width: 50px height:120px border: 2px solid #fffle6;
     color:#fffle6; 
     font-family: 'Nanum Myeongjo', serif; //<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
