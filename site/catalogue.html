@@ -190,23 +190,32 @@
     <!-- Basket -->
     <div id="basket" class="container">
       <div class="row">
-        <div class="col">
+        <div class="col navbar navbar-expand">
           <h3>Panier</h3>
         </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <p>Item 1</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <p>Item 2</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <p>Total</p>
+        <div class="col bg-dark">
+          Bouton déployer / réduire panier
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basketContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div id="basketContent" class="collapse navbar-collapse">
+            <!-- Items -->
+            <div class="row">
+              <div class="col">
+                <p>Item 1</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <p>Item 2</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <p>Total</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
