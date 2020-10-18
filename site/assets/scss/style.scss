@@ -25,7 +25,8 @@ li{
     list-style-type:none;
     float:left 5em;
     display: inline block;
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
+    font-size: ;
 }
 //PHOTO PAGE D'ACCEIL
 .pictureacceuil {
@@ -60,12 +61,16 @@ li{
 //logo fond transparant
 .logo {
     background-image: url(/assets/images/LogoVectoTotal.svg);
+    text-align: ;
 
 }
 
 //signature
 .sign {
     background-image: url();
+    text-align: ;
+    width: auto
+    height: ;
 }
 
 //titre NOS PRODUITS <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
@@ -73,6 +78,7 @@ li{
     font-family: font-family: 'Nanum Myeongjo', serif;
     color: #fff1e6;
     text-align:center;
+    font-size:;
 }
 //sous-titre clasification <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
 .h4 {
@@ -82,6 +88,7 @@ li{
         display: inline block;
         font-family: 'Nanum Myeongjo', serif; 
         border-radius: width: 50px height:120px border: 2px solid #ffffff;
+        font-size: ;
         
     }
 }
@@ -90,6 +97,7 @@ li{
     font-family:font-family: 'Nanum Myeongjo', serif; 
     color: #fff1e6;
     text-align:;
+    font-size:;
 }
 //sous-titre texte BERNARD WAUCQUEZ <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
 .paragraphe {
@@ -97,6 +105,7 @@ li{
     font-family: 'Open Sans', sans-serif;
     color: #fff1e6;
     text-align: ;
+    font-size: ;
 }
 }
 //sous-titre CONTACT <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
@@ -104,6 +113,14 @@ li{
     font-family:font-family: 'Nanum Myeongjo', serif; 
     color:#fff1e6;
     text-align:;
+    font-size:;
+}
+//button à votre services <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+.button {
+    border-radius: width: 50px height:120px border: 2px solid #ffffff;
+    color:#fffle6; 
+    font-family: 'Nanum Myeongjo', serif;
+    font-size:;
 }
 
 
