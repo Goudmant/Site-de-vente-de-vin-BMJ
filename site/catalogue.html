@@ -187,34 +187,51 @@
         </div>
       </div>
     </div>
-    <!-- Basket -->
-    <div id="basket" class="container">
+    <!-- Shopping cart -->
+    <div id="cart" class="container bg-dark">
       <div class="row">
-        <div class="col navbar navbar-expand">
-          <h3>Panier</h3>
-        </div>
-        <div class="col bg-dark">
-          Bouton déployer / réduire panier
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basketContent">
+        <div class="col navbar text-right navbar-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#cartContent">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div id="basketContent" class="collapse navbar-collapse">
-            <!-- Items -->
-            <div class="row">
-              <div class="col">
-                <p>Item 1</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <p>Item 2</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <p>Total</p>
-              </div>
-            </div>
+        </div>
+      </div>
+      <div id="cartContent" class="collapse navbar-collapse">
+        <!-- Table -->
+        <div class="row">
+          <div class="col">
+            <table class="table-sm">
+              <thead>
+                <tr>
+                  <td>PRODUIT</td>
+                  <td>QUANTITE</td>
+                  <td>PRIX</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Item-1</td>
+                  <td>Quantité</td>
+                  <td>Prix</td>
+                </tr>
+                <tr>
+                  <td>Item-2</td>
+                  <td>Quantité</td>
+                  <td>Prix</td>
+                </tr>
+                <tr>
+                  <td>Total</td>
+                  <td>Total</td>
+                  <td>Total</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <!-- Button -->
+        <div class="row">
+          <div class="col">
+            <button class="btn btn-dark">Valider le panier</button>
           </div>
         </div>
       </div>
