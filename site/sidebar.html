@@ -23,6 +23,31 @@
       }
     </style>
 
+    <!-- Sidebar CSS -->
+    <style>
+      .wrapper {
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row-reverse; /* Because I want my sidebar on the right */
+        /* flex-wrap: nowrap; */
+        align-items: stretch;
+      }
+      #sidebar {
+        min-height: 100vh;
+        min-width: 250px;
+        max-width: 250px;
+        margin-right: -250px; /* Hides the sidebar */
+      }
+      #sidebar.active {
+        margin-right: 0px; /* Displays the sidebar */
+      }
+      #main-content {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
     <!-- Navbar -->
     <div class="bg-dark">
       <div class="container">
@@ -56,31 +81,6 @@
       </div>
     </div>
 
-    <!-- Sidebar CSS -->
-    <style>
-      .wrapper {
-        width: 100%;
-        overflow: hidden;
-        display: flex;
-        flex-direction: row-reverse; /* Because I want my sidebar on the right */
-        /* flex-wrap: nowrap; */
-        align-items: stretch;
-      }
-      #sidebar {
-        min-height: 100vh;
-        min-width: 250px;
-        max-width: 250px;
-        margin-right: -250px; /* Hides the sidebar */
-      }
-      #sidebar.active {
-        margin-right: 0px; /* Displays the sidebar */
-      }
-      #main-content {
-        width: 100%;
-      }
-    </style>
-  </head>
-  <body>
     <!-- Wrapper : DO NOT STYLE -->
     <div class="wrapper">
       <!-- Sidebar -->
