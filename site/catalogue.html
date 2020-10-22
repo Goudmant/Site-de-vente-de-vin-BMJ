@@ -22,11 +22,43 @@
         border: 2px solid #3fa5db;
       }
     </style>
+
+    <!-- Sidebar CSS -->
+    <style>
+      .wrapper {
+        /* overflow: hidden; */ /* Prevents "position:sticky" from working on its descendants ; apply "display:none" on descendants instead */
+        display: flex;
+        flex-direction: row-reverse; /* Because I want my sidebar on the right */
+        width: 100%;
+      }
+      #sidebar {
+        width: 250px;
+        /* margin-right: -250px; */ /* Hides the sidebar with "overflow:hidden" applied on parent */
+        display: none;
+      }
+      #sidebar.active {
+        /* margin-right: 0px; */ /* Displays the sidebar with "overflow:hidden" applied on parent */
+        display: unset; /* Cancels "display:none" */
+      }
+      #sidebar-content {
+        position: sticky;
+        top: 50px;
+        right: 0;
+      }
+      #sidebarCollapse {
+        position: sticky;
+        top: 0;
+        z-index: 999; /* Allows the button to be used over the .wrapper area */
+      }
+      #main-content {
+        width: 100%;
+      }
+    </style>
   </head>
   <body>
     <!-- Navbar -->
     <div class="bg-dark">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <nav class="col navbar navbar-expand-lg navbar-dark">
             <a class="navbar-brand" href="...">
@@ -57,180 +89,184 @@
       </div>
     </div>
 
-    <!-- Shopping cart -->
-    <div id="cart" class="container d-inline-flex sticky-top justify-content-end">
-      <div class="row bg-dark">
-        <div class="col navbar navbar-dark">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#cartContent">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
+    <!-- Sidebar toggle button -->
+    <nav id="sidebarCollapse" class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid flex-row-reverse">
+        <button type="button" class="btn btn-dark">
+          <i class=""></i>
+          <span class="navbar-toggler-icon"></span>
+        </button>
       </div>
-      <div id="cartContent" class="collapse navbar-collapse text-right">
-        <!-- Table -->
-        <div class="row d-inline-flex flex-column">
-          <div class="col">
-            <table class="table-sm">
-              <thead>
-                <tr>
-                  <td>PRODUIT</td>
-                  <td>QUANTITE</td>
-                  <td>PRIX</td>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Item-1</td>
-                  <td>Quantité</td>
-                  <td>Prix</td>
-                </tr>
-                <tr>
-                  <td>Item-2</td>
-                  <td>Quantité</td>
-                  <td>Prix</td>
-                </tr>
-                <tr>
-                  <td>Total</td>
-                  <td>Total</td>
-                  <td>Total</td>
-                </tr>
-              </tbody>
-            </table>
-            <!-- Button -->
-            <button class="btn btn-dark">Valider le panier</button>
-          </div>
-        </div>
-      </div>
-    </div>
+    </nav>
 
-    <!-- Main -->
-    <div class="container">
-      <div class="row">
-        <div class="col-4"><h4>Switch HTVA / TVAC</h4></div>
-        <div class="col-4"><h4>Switch vidanges</h4></div>
-      </div>
-      <div class="row">
-        <div class="col"><h3>Vin rouge</h3></div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <p class="nom">Nom</p>
+    <!-- Wrapper : DO NOT STYLE -->
+    <div class="wrapper">
+      <!-- Sidebar -->
+      <nav id="sidebar">
+        <div id="sidebar-content">
+          <h3>Sidebar content</h3>
+          <table class="table-sm">
+            <thead>
+              <tr>
+                <td>PRODUIT</td>
+                <td>QUANTITE</td>
+                <td>PRIX</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Item-1</td>
+                <td>Quantité</td>
+                <td>Prix</td>
+              </tr>
+              <tr>
+                <td>Item-2</td>
+                <td>Quantité</td>
+                <td>Prix</td>
+              </tr>
+              <tr>
+                <td>Total</td>
+                <td>Total</td>
+                <td>Total</td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- Button -->
+          <button class="btn btn-dark">Valider le panier</button>
         </div>
-        <div class="col">
-          <p class="prix-1">Prix (1)</p>
-        </div>
-        <div class="col">
-          <p class="prix-6">Prix (6)</p>
-        </div>
-        <div class="col">
-          <p class="prix-12">Prix (12)</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <p class="nom">Nom</p>
-        </div>
-        <div class="col">
-          <p class="prix-1">Prix (1)</p>
-        </div>
-        <div class="col">
-          <p class="prix-6">Prix (6)</p>
-        </div>
-        <div class="col">
-          <p class="prix-12">Prix (12)</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col"><h3>Vin blanc</h3></div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <p class="nom">Nom</p>
-        </div>
-        <div class="col">
-          <p class="prix-1">Prix (1)</p>
-        </div>
-        <div class="col">
-          <p class="prix-6">Prix (6)</p>
-        </div>
-        <div class="col">
-          <p class="prix-12">Prix (12)</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <p class="nom">Nom</p>
-        </div>
-        <div class="col">
-          <p class="prix-1">Prix (1)</p>
-        </div>
-        <div class="col">
-          <p class="prix-6">Prix (6)</p>
-        </div>
-        <div class="col">
-          <p class="prix-12">Prix (12)</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col"><h3>Vin rosé</h3></div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <p class="nom">Nom</p>
-        </div>
-        <div class="col">
-          <p class="prix-1">Prix (1)</p>
-        </div>
-        <div class="col">
-          <p class="prix-6">Prix (6)</p>
-        </div>
-        <div class="col">
-          <p class="prix-12">Prix (12)</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <p class="nom">Nom</p>
-        </div>
-        <div class="col">
-          <p class="prix-1">Prix (1)</p>
-        </div>
-        <div class="col">
-          <p class="prix-6">Prix (6)</p>
-        </div>
-        <div class="col">
-          <p class="prix-12">Prix (12)</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col"><h3>Vin pétillant</h3></div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <p class="nom">Nom</p>
-        </div>
-        <div class="col">
-          <p class="prix-1">Prix (1)</p>
-        </div>
-        <div class="col">
-          <p class="prix-6">Prix (6)</p>
-        </div>
-        <div class="col">
-          <p class="prix-12">Prix (12)</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <p class="nom">Nom</p>
-        </div>
-        <div class="col">
-          <p class="prix-1">Prix (1)</p>
-        </div>
-        <div class="col">
-          <p class="prix-6">Prix (6)</p>
-        </div>
-        <div class="col">
-          <p class="prix-12">Prix (12)</p>
+      </nav>
+
+      <!-- Main content -->
+      <div id="main-content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-4"><h4>Switch HTVA / TVAC</h4></div>
+            <div class="col-4"><h4>Switch vidanges</h4></div>
+          </div>
+          <div class="row">
+            <div class="col"><h3>Vin rouge</h3></div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <p class="nom">Nom</p>
+            </div>
+            <div class="col">
+              <p class="prix-1">Prix (1)</p>
+            </div>
+            <div class="col">
+              <p class="prix-6">Prix (6)</p>
+            </div>
+            <div class="col">
+              <p class="prix-12">Prix (12)</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <p class="nom">Nom</p>
+            </div>
+            <div class="col">
+              <p class="prix-1">Prix (1)</p>
+            </div>
+            <div class="col">
+              <p class="prix-6">Prix (6)</p>
+            </div>
+            <div class="col">
+              <p class="prix-12">Prix (12)</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col"><h3>Vin blanc</h3></div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <p class="nom">Nom</p>
+            </div>
+            <div class="col">
+              <p class="prix-1">Prix (1)</p>
+            </div>
+            <div class="col">
+              <p class="prix-6">Prix (6)</p>
+            </div>
+            <div class="col">
+              <p class="prix-12">Prix (12)</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <p class="nom">Nom</p>
+            </div>
+            <div class="col">
+              <p class="prix-1">Prix (1)</p>
+            </div>
+            <div class="col">
+              <p class="prix-6">Prix (6)</p>
+            </div>
+            <div class="col">
+              <p class="prix-12">Prix (12)</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col"><h3>Vin rosé</h3></div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <p class="nom">Nom</p>
+            </div>
+            <div class="col">
+              <p class="prix-1">Prix (1)</p>
+            </div>
+            <div class="col">
+              <p class="prix-6">Prix (6)</p>
+            </div>
+            <div class="col">
+              <p class="prix-12">Prix (12)</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <p class="nom">Nom</p>
+            </div>
+            <div class="col">
+              <p class="prix-1">Prix (1)</p>
+            </div>
+            <div class="col">
+              <p class="prix-6">Prix (6)</p>
+            </div>
+            <div class="col">
+              <p class="prix-12">Prix (12)</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col"><h3>Vin pétillant</h3></div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <p class="nom">Nom</p>
+            </div>
+            <div class="col">
+              <p class="prix-1">Prix (1)</p>
+            </div>
+            <div class="col">
+              <p class="prix-6">Prix (6)</p>
+            </div>
+            <div class="col">
+              <p class="prix-12">Prix (12)</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <p class="nom">Nom</p>
+            </div>
+            <div class="col">
+              <p class="prix-1">Prix (1)</p>
+            </div>
+            <div class="col">
+              <p class="prix-6">Prix (6)</p>
+            </div>
+            <div class="col">
+              <p class="prix-12">Prix (12)</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -239,5 +275,15 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Toggle sidebar on click-->
+    <script>
+      $(document).ready(function () {
+        $("#sidebarCollapse").on("click", function () {
+          $("#sidebar").toggleClass("active");
+          console.log("sidebar active");
+        });
+      });
+    </script>
   </body>
 </html>
