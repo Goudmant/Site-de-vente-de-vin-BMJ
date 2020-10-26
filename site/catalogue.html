@@ -55,7 +55,7 @@
       }
     </style>
   </head>
-  <body>
+  <body id="bootstrap-override">
     <!-- Navbar -->
     <div class="bg-dark">
       <div class="container-fluid">
@@ -135,6 +135,15 @@
           <button class="btn btn-dark">Valider le panier</button>
         </div>
       </nav>
+
+      <!-- Table -->
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div id="dynamicTable">Here comes the table!</div>
+          </div>
+        </div>
+      </div>
 
       <!-- Main content -->
       <div id="main-content">
@@ -285,5 +294,6 @@
         });
       });
     </script>
+    <script src="assets/scripts/script.js"></script>
   </body>
 </html>
