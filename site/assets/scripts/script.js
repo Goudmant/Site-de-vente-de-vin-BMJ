@@ -261,3 +261,5 @@ function generateDynamicTable() {
     document.getElementById("dynamicTable").appendChild(table);
   }
 }
+
+// Source : https://www.webtrainingcentre.com/javascript-solutions/create-a-dynamic-table-using-json-and-javascript/
