@@ -6,7 +6,12 @@
 //couleur Nav-bar (#38040E)
 //background-color derierre le logo transparant (#FFFFF)
 
+//////////////////////////////////////@import
+
+@import'_img.scss';
+
 //////////////////////////////////////PAGE Acceil
+
 
 body#bootstrap-override  {
   background-color: #640d14; //couleur de fond site
@@ -27,103 +32,7 @@ body#bootstrap-override  {
     color: #fff1e6;
   }
   
-  //////////////////////////////////////IMAGE PAGE D'ACCEIL
-  
-  .pictureacceuil {
-    background-image: url(../); // DeuxVerreDeVinsRougesCheminée
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .vinsrouges {
-    background-image: url(); // UnVerreDeVinRouge
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .vinsblancs {
-    background-image: url(); // DeuxVerresDeVinsBlancs
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .vinsrosées {
-    background-image: url(); // DeuxVerresDeVinsRosées
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .mousseux {
-    background-image: url(); // UnVerreDeBulles
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .picturebernard {
-    background-image: url(); // GoulotsDeBouteilleDeVins
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .picturecontact {
-    background-image: url(); //CaveÀVins
-    width: 100%;
-    height: auto;
-  }
-  //#element { background:url(PictureContact.jpg) no-repeat; }
-  
-  //////////////////////////////////////IMAGE page Présentation
-  
-  .picturepresentation {
-    background-image: url(); // ou // url(/assets/images/Namur\ -\ Vieilles\ Maisons\ sur\ la\ Sambre.jpg) //Photo en attente // ViellePhotoDeNamur
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  //signature
-  .sign {
-    background-image: url(); // SignatureClientBlanc (existe aussi en noir)
-    text-align: right;
-    width: auto;
-  }
-  
-  //////////////////////////////////////IMAGE PAGE Contact
-  
-  //IMAGE PAGE Produit
-  .logoR {
-    background-image: url(../images/VerreDeVinRouge.png); // VerreDeVinRouge
-    background-size: 4%;
-    height: auto;
-    background-repeat: no-repeat;
-  }
-  .logoB {
-    background-image: url(../images/VerreDeVinBlanc.png); // VerreDeVinBlanc
-    background-size: 4%;
-    height: auto;
-    background-repeat: no-repeat;
-  }
-  .logoRs {
-    background-image: url(../images/VerreDeVinRosée.png); // VerreDeVinRosées
-    background-size: 4%;
-    height: auto;
-    background-repeat: no-repeat;
-  }
-  .logobulles {
-    background-image: url(../images/VerreDeVinBulle.png); // VerreDeBulles
-    background-size: 4%;
-    height: auto;
-    background-repeat: no-repeat;
-    
-  }
-  
-  //logo fond transparant
-  .logo {
-    background-image: url(); // LogoSvg
-    background-color: #ffffff;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 50%;
-    height: auto;
-  }
+
   
   //////////////////////////////////////TEXTE
   
