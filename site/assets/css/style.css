@@ -1,60 +1,163 @@
 @charset "UTF-8";
-body {
-  color: #640D14;
+body#bootstrap-override {
+  background-color: #640d14;
 }
 
-.navbar-top {
-  background-color: #38040E;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+#bootstrap-override .bg-dark {
+  background-color: #38040e !important;
 }
 
 .navbar-bottom {
-  background-color: #38040E;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #38040e;
 }
 
 li {
   list-style-type: none;
   float: left 5em;
   display: inline block;
+  font-family: "Open Sans", sans-serif;
+  font: size 1vw;
+  color: #fff1e6;
 }
 
 .pictureacceuil {
-  background-image: url(/assets/images/red-wine-2443699.jpg);
+  background-image: url(../);
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
 .vinsrouges {
-  background-image: url(/assets/images/ProduitVinsRouges.jpg);
+  background-image: url();
+  background-size: contain;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
 .vinsblancs {
-  background-image: url(/assets/images/ProduitVinsBlancs.jpg);
+  background-image: url();
+  background-size: contain;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
 .vinsrosées {
-  background-image: url(/assets/images/ProduitsVinsRosées.jpg);
+  background-image: url();
+  background-size: contain;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
-.bulles {
-  background-image: url(/assets/images/ProduitsVinsBulles.jpg);
+.mousseux {
+  background-image: url();
+  background-size: contain;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
 .picturebernard {
-  background-image: url(/assets/images/PictureBernard.jpg);
+  background-image: url();
+  background-size: contain;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
 .picturecontact {
-  background-image: url(/assets/images/PictureContact.jpg);
+  background-image: url();
+  width: 100%;
+  height: auto;
+}
+
+.picturepresentation {
+  background-image: url();
+  background-size: contain;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
-.logo {
-  background-image: url(/assets/images/LogoVectoTotal.svg);
+.sign {
+  background-image: url();
+  text-align: right;
+  width: auto;
 }
+
+.logoR {
+  background-image: url(../images/VerreDeVinRouge.png);
+  background-size: 4%;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+.logoB {
+  background-image: url(../images/VerreDeVinBlanc.png);
+  background-size: 4%;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+.logoRs {
+  background-image: url(../images/VerreDeVinRosée.png);
+  background-size: 4%;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+.logobulles {
+  background-image: url(../images/VerreDeVinBulle.png);
+  background-size: 4%;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  background-image: url();
+  background-color: #ffffff;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: auto;
+}
+
+.p {
+  color: #fff1e6;
+  font-size: 1vw;
+  font-family: "Open Sans", sans-serif;
+}
+
+.titre {
+  font-family: "Nanum Myeongjo", serif;
+  color: #fff1e6;
+  text-align: center;
+  font: size 3em;
+}
+
+.border {
+  font-family: "Nanum Myeongjo", serif;
+  border: 2px solid #fff1e6;
+  padding: 10px;
+  border-radius: 25px;
+  font: size 1vw;
+}
+
+.h2 {
+  font-family: "Nanum Myeongjo", serif;
+}
+
+.paragraphe .SousParagraphe {
+  font-family: "Open Sans", sans-serif;
+  color: #fff1e6;
+}
+
+.h3 {
+  font-family: "Nanum Myeongjo", serif;
+}
+
+.buttonContact {
+  font-family: "Nanum Myeongjo", serif;
+  border: 2px solid #fff1e6;
+  padding: 10px;
+  border-radius: 25px;
+  font: size 1vw;
+}
+
+/*test save test 2 apres user setting */
 /*# sourceMappingURL=style.css.map */
