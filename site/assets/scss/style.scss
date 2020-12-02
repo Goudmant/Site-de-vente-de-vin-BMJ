@@ -12,12 +12,16 @@
 
 //////////////////////////////////////PAGE Acceil
 
-
+.e {
+  background-color: yellow;
+}
 body#bootstrap-override  {
-  background-color: #640d14; //couleur de fond site
+  //background-color: #640d14; //couleur de fond site
+  background-color: white;
 }
 #bootstrap-override .bg-dark {
-  background-color: #38040e !important;
+  //background-color: #38040e !important;
+  background-color: white;
 }
 .navbar-bottom {
     background-color: #38040e;

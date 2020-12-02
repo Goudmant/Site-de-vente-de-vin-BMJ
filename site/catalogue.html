@@ -55,14 +55,14 @@
       }
     </style>
   </head>
-  <body id="bootstrap-override">
+  <body>
     <!-- Navbar -->
-    <div class="bg-dark">
-      <div class="container-fluid">
-        <div class="row">
+    <div>
+      <div class="container-fluid e" >
+        <div class="row logoR">
           <nav class="col navbar navbar-expand-lg navbar-dark">
             <a class="navbar-brand" href="...">
-              <img src="" alt="logo" height="50" width="50" />
+              <img src="assets/images/PictureBernard.jpg" alt="logo" height="50" width="50" />
               BMJ Vins
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
@@ -135,6 +135,15 @@
           <button class="btn btn-dark">Valider le panier</button>
         </div>
       </nav>
+
+      <!-- Table -->
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div id="dynamicTable">Here comes the table!</div>
+          </div>
+        </div>
+      </div>
 
       <!-- Main content -->
       <div id="main-content">
@@ -285,5 +294,6 @@
         });
       });
     </script>
+    <script src="assets/scripts/script.js"></script>
   </body>
 </html>

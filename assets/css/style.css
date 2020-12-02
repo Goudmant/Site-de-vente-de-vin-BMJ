@@ -96,12 +96,16 @@
   height: auto;
 }
 
+.e {
+  background-color: yellow;
+}
+
 body#bootstrap-override {
-  background-color: #640d14;
+  background-color: white;
 }
 
 #bootstrap-override .bg-dark {
-  background-color: #38040e !important;
+  background-color: white;
 }
 
 .navbar-bottom {
