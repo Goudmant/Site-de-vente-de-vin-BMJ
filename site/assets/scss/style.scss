@@ -6,171 +6,88 @@
 //couleur Nav-bar (#38040E)
 //background-color derierre le logo transparant (#FFFFF)
 
+//////////////////////////////////////@import
+
+@import'_img.scss';
+
 //////////////////////////////////////PAGE Acceil
 
-body{
-    background-color: #640D14; //couleur de fond site 
+.e {
+  background-color: yellow;
 }
-.navbar-top {
-    background-color:#38040E;
-    
+body#bootstrap-override  {
+  //background-color: #640d14; //couleur de fond site
+  background-color: white;
 }
-
+#bootstrap-override .bg-dark {
+  //background-color: #38040e !important;
+  background-color: white;
+}
 .navbar-bottom {
-    background-color:#38040E;
-    
-}
-//Liste a puces Nav-Bar(top/bottom) 
-li{
-    list-style-type:none;
-    float:left 5em;
+    background-color: #38040e;
+  }
+  //Liste a puces Nav-Bar(top/bottom)
+  li {
+    list-style-type: none;
+    float: left 5em;
     display: inline block;
-    font-family: 'Open Sans', sans-serif; //<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
-    font-size: ;
-}
-
-//////////////////////////////////////IMAGE PAGE D'ACCEIL
-
-
-.pictureacceuil {
-    background-image: url(/assets/images/red-wine-2443699.jpg); // DeuxVerreDeVinsRougesCheminée
-    background-size: cover;
-}
-.vinsrouges {
-    background-image: url(/assets/images/ProduitVinsRouges.jpg); // UnVerreDeVinRouge
-    background-size: cover;
-}
-.vinsblancs{
-    background-image: url(/assets/images/ProduitVinsBlancs.jpg);// DeuxVerresDeVinsBlancs
-    background-size: cover;
-}
-.vinsrosées {
-    background-image: url(/assets/images/ProduitsVinsRosées.jpg);// DeuxVerresDeVinsRosées
-    background-size: cover;
-}
-.bulles {
-    background-image: url(/assets/images/ProduitsVinsBulles.jpg);// UnVerreDeBulles
-    background-size: cover;
-}
-.picturebernard {
-    background-image: url(/assets/images/PictureBernard.jpg);// GoulotsDeBouteilleDeVins
-    background-size: cover;
-}
-.picturecontact {
-    background-image: url(/assets/images/PictureContact.jpg);//CaveÀVins
-}
-
-//////////////////////////////////////IMAGE page Présentation
-
-.picurepresentation {
-    background-image: url(/assets/images/Namur\ -\ L\ Ile\ Vas-t\ y\ frotte.jpg); // ou // url(/assets/images/Namur\ -\ Vieilles\ Maisons\ sur\ la\ Sambre.jpg) //Photo en attente // ViellePhotoDeNamur
-    background-size: cover;
-}
-//signature
-.sign {
-    background-image: url(/assets/images/SignatureBlanc.svg); // SignatureClientBlanc (existe aussi en noir) 
-    text-align: ;
-    width: auto
-    height: ;
-}
-
-//////////////////////////////////////IMAGE PAGE Contact
-
-//IMAGE PAGE Produit 
-.logoR {
-    background-image: url(/assets/images/ProduitVinsRouges.jpg); // VerreDeVinRouge
-    width: ;
-    height: ;
-}
-.logoB {
-    background-image: url(/assets/images/ProduitVinsBlancs.jpg); // VerreDeVinBlanc
-    width: ;
-    height: ;
-}
-.logoRs {
-    background-image: url(/assets/images/ProduitsVinsRosées.jpg); // VerreDeVinRosées
-    width: ;
-    height: ;
-}
-.logobulles {
-    background-image: url(/assets/images/ProduitsVinsBulles.jpg); // VerreDeBulles
-    width: ;
-    height: ;
-}
-
-
-//logo fond transparant
-.logo {
-    background-image: url(/assets/images/LogoVectoTotal.svg);// LogoSvg
-    .fond{
-    background-color: #ffffff;
-    margin-block: ;
-    text-align: ;
-    }
-
-}
-
-//////////////////////////////////////TEXTE
-
-.p {
+    font-family: "Open Sans", sans-serif; //<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    font: size 1vw;
     color: #fff1e6;
-    font-size: ;
-    font-family: 'Open Sans', sans-serif; //<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+  }
+  
 
-}
-
-//titre NOS PRODUITS 
-.h1{
-    font-family: font-family: 'Nanum Myeongjo', serif; //<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+  
+  //////////////////////////////////////TEXTE
+  
+  .p {
     color: #fff1e6;
-    text-align:center;
-    font-size:;
-}
-//sous-titre clasification 
-.h4 {
-    li{
-        list-style-type:none;
-        float:left 5em;
-        display: inline block;
-        font-family: 'Nanum Myeongjo', serif; //<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
-        border-radius: width: 50px height:120px border: 2px solid #fffle6;
-        font-size: ;
-        
-    }
-}
-//sous-titre BERNARD WAUCQUEZ 
-.h2{
-    font-family:font-family: 'Nanum Myeongjo', serif; //<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    font-size: 1vw;
+    font-family: "Open Sans", sans-serif; //<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+  }
+  
+  //titre NOS PRODUITS
+  .titre {
+    font-family: "Nanum Myeongjo", serif; //<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
     color: #fff1e6;
-    text-align:;
-    font-size:;
-}
-//sous-titre texte BERNARD WAUCQUEZ 
-.paragraphe {
+    text-align: center;
+    font: size 3em;
+  }
+  //sous-titre clasification
+  .border {
+    font-family: "Nanum Myeongjo", serif; //<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    border: 2px solid #fff1e6;
+    padding: 10px;
+    border-radius: 25px;
+    font: size 1vw;
+  }
+  //sous-titre BERNARD WAUCQUEZ
+  .h2 {
+    font-family: "Nanum Myeongjo", serif; //<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+  }
+  //sous-titre texte BERNARD WAUCQUEZ
+  .paragraphe {
     .SousParagraphe {
-    font-family: 'Open Sans', sans-serif; //<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
-    color: #fff1e6;
-    text-align: ;
-    font-size: ;
-}
-}
-//sous-titre CONTACT 
-.h3{
-    font-family:font-family: 'Nanum Myeongjo', serif;//<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet"> 
-    color:#fff1e6;
-    text-align:;
-    font-size:;
-}
+      font-family: "Open Sans", sans-serif; //<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+      color: #fff1e6;
+    }
+  }
+  //sous-titre CONTACT
+  .h3 {
+    font-family: "Nanum Myeongjo", serif; //<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+  }
+  
+  ////////////////////////////////////FUNCTION
+  
+  //button à votre services
+  .buttonContact {
+    font-family: "Nanum Myeongjo", serif; //<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    border: 2px solid #fff1e6;
+    padding: 10px;
+    border-radius: 25px;
+    font: size 1vw;
+  }
 
-////////////////////////////////////FUNCTION
-
-//button à votre services 
-.buttonContact {
-    border-radius: width: 50px height:120px border: 2px solid #fffle6;
-    color:#fffle6; 
-    font-family: 'Nanum Myeongjo', serif; //<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
-    font-size:;
-}
-
+  /*test save test 2 apres user setting */
 
 
