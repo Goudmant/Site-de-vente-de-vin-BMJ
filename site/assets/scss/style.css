@@ -1,0 +1,135 @@
+@charset "UTF-8";
+body {
+  background-color: #640D14;
+}
+
+img.imgjumbotron {
+  /* height */
+  height: 5%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-top {
+  background-color: #38040E;
+}
+
+.navbar-bottom {
+  background-color: #38040E;
+}
+
+li {
+  list-style-type: none;
+  float: left 5em;
+  display: inline block;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.pictureacceuil {
+  background-image: url(/assets/images/red-wine-2443699.jpg);
+  background-size: cover;
+}
+
+.vinsrouges {
+  background-image: url(/assets/images/ProduitVinsRouges.jpg);
+  background-size: cover;
+}
+
+.vinsblancs {
+  background-image: url(/assets/images/ProduitVinsBlancs.jpg);
+  background-size: cover;
+}
+
+.vinsrosées {
+  background-image: url(/assets/images/ProduitsVinsRosées.jpg);
+  background-size: cover;
+}
+
+.bulles {
+  background-image: url(/assets/images/ProduitsVinsBulles.jpg);
+  background-size: cover;
+}
+
+.picturebernard {
+  background-image: url(/assets/images/PictureBernard.jpg);
+  background-size: cover;
+}
+
+.picturecontact {
+  background-image: url(/assets/images/PictureContact.jpg);
+}
+
+.picurepresentation {
+  background-size: cover;
+}
+
+.sign {
+  background-image: url(/assets/images/SignatureBlanc.svg);
+  width: auto;
+}
+
+.logoR {
+  background-image: url(/assets/images/ProduitVinsRouges.jpg);
+}
+
+.logoB {
+  background-image: url(/assets/images/ProduitVinsBlancs.jpg);
+}
+
+.logoRs {
+  background-image: url(/assets/images/ProduitsVinsRosées.jpg);
+}
+
+.logobulles {
+  background-image: url(/assets/images/ProduitsVinsBulles.jpg);
+}
+
+.logo {
+  background-image: url(/assets/images/LogoVectoTotal.svg);
+}
+
+.logo .fond {
+  background-color: #ffffff;
+}
+
+.p {
+  color: #fff1e6;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.h1 {
+  font-family: 'Nanum Myeongjo', serif;
+  color: #fff1e6;
+  text-align: center;
+}
+
+.h4 li {
+  list-style-type: none;
+  float: left 5em;
+  display: inline block;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+.h2 {
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+.paragraphe .SousParagraphe {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff1e6;
+}
+
+.h3 {
+  font-family: 'Nanum Myeongjo', serif;
+  color: #fff1e6;
+}
+
+.buttonContact {
+  width: 50px;
+  height: 120px;
+  border: 2px solid;
+  font-family: 'Nanum Myeongjo', serif;
+}
+/*# sourceMappingURL=style.css.map */

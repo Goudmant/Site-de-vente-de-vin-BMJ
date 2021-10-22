@@ -11,6 +11,17 @@
 body{
     background-color: #640D14; //couleur de fond site 
 }
+
+  
+img.imgjumbotron {
+    /* height */
+    height: 5%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 .navbar-top {
     background-color:#38040E;
     
@@ -26,7 +37,7 @@ li{
     float:left 5em;
     display: inline block;
     font-family: 'Open Sans', sans-serif; //<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
-    font-size: ;
+    //font-size: ;
 }
 
 //////////////////////////////////////IMAGE PAGE D'ACCEIL
@@ -63,15 +74,15 @@ li{
 //////////////////////////////////////IMAGE page Présentation
 
 .picurepresentation {
-    background-image: url(/assets/images/Namur\ -\ L\ Ile\ Vas-t\ y\ frotte.jpg); // ou // url(/assets/images/Namur\ -\ Vieilles\ Maisons\ sur\ la\ Sambre.jpg) //Photo en attente // ViellePhotoDeNamur
+    //ackground-image: url(/assets/images/Namur\ -\ L\ Ile\ Vas-t\ y\ frotte.jpg); // ou // url(/assets/images/Namur\ -\ Vieilles\ Maisons\ sur\ la\ Sambre.jpg) //Photo en attente // ViellePhotoDeNamur
     background-size: cover;
 }
 //signature
 .sign {
     background-image: url(/assets/images/SignatureBlanc.svg); // SignatureClientBlanc (existe aussi en noir) 
-    text-align: ;
+    //text-align: ;
     width: auto
-    height: ;
+    //height: ;
 }
 
 //////////////////////////////////////IMAGE PAGE Contact
@@ -79,23 +90,23 @@ li{
 //IMAGE PAGE Produit 
 .logoR {
     background-image: url(/assets/images/ProduitVinsRouges.jpg); // VerreDeVinRouge
-    width: ;
-    height: ;
+    //width: ;
+    //height: ;
 }
 .logoB {
     background-image: url(/assets/images/ProduitVinsBlancs.jpg); // VerreDeVinBlanc
-    width: ;
-    height: ;
+    //width: ;
+    //height: ;
 }
 .logoRs {
     background-image: url(/assets/images/ProduitsVinsRosées.jpg); // VerreDeVinRosées
-    width: ;
-    height: ;
+    //width: ;
+    //height: ;
 }
 .logobulles {
     background-image: url(/assets/images/ProduitsVinsBulles.jpg); // VerreDeBulles
-    width: ;
-    height: ;
+    //width: ;
+    //height: ;
 }
 
 
@@ -104,8 +115,8 @@ li{
     background-image: url(/assets/images/LogoVectoTotal.svg);// LogoSvg
     .fond{
     background-color: #ffffff;
-    margin-block: ;
-    text-align: ;
+    //margin-block: ;
+    //text-align: ;
     }
 
 }
@@ -114,17 +125,17 @@ li{
 
 .p {
     color: #fff1e6;
-    font-size: ;
+    //font-size: ;
     font-family: 'Open Sans', sans-serif; //<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
 
 }
 
 //titre NOS PRODUITS 
 .h1{
-    font-family: font-family: 'Nanum Myeongjo', serif; //<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    font-family: 'Nanum Myeongjo', serif; //<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
     color: #fff1e6;
     text-align:center;
-    font-size:;
+    //font-size:;
 }
 //sous-titre clasification 
 .h4 {
@@ -133,43 +144,46 @@ li{
         float:left 5em;
         display: inline block;
         font-family: 'Nanum Myeongjo', serif; //<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
-        border-radius: width: 50px height:120px border: 2px solid #fffle6;
-        font-size: ;
+        //border-radius: width: 50px height:120px border: 2px solid #fffle6;
+        //font-size: ;
         
     }
 }
 //sous-titre BERNARD WAUCQUEZ 
 .h2{
-    font-family:font-family: 'Nanum Myeongjo', serif; //<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
-    color: #fff1e6;
-    text-align:;
-    font-size:;
+    font-family:'Nanum Myeongjo', serif; //<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    //color: #fff1e6;
+    //text-align:;
+    //font-size:;
 }
 //sous-titre texte BERNARD WAUCQUEZ 
 .paragraphe {
     .SousParagraphe {
     font-family: 'Open Sans', sans-serif; //<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
     color: #fff1e6;
-    text-align: ;
-    font-size: ;
+    //text-align: ;
+    //font-size: ;
 }
 }
 //sous-titre CONTACT 
 .h3{
-    font-family:font-family: 'Nanum Myeongjo', serif;//<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet"> 
+    font-family: 'Nanum Myeongjo', serif;//<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet"> 
     color:#fff1e6;
-    text-align:;
-    font-size:;
+    //text-align:;
+    //font-size:;
 }
 
 ////////////////////////////////////FUNCTION
 
 //button à votre services 
 .buttonContact {
-    border-radius: width: 50px height:120px border: 2px solid #fffle6;
-    color:#fffle6; 
+    //border-radius: 
+    width: 50px;
+    height:120px; 
+    border: 2px solid;
+    //color: #fffle6;
     font-family: 'Nanum Myeongjo', serif; //<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
-    font-size:;
+    //font-size:;
 }
 
 
